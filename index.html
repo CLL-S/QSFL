@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>掐丝珐琅成品 3D模型查看器</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/three@0.132.2/build/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.132.2/examples/js/loaders/GLTFLoader.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.132.2/examples/js/controls/OrbitControls.js"></script>
+</head>
+<body>
+    <div id="model-container"></div>
+    <div id="model-selector">
+        <select id="model-select">
+            <option value="">选择模型</option>
+            <option value="75周年系列.glb">75周年系列模型 1</option>
+            <option value="七号桥碉堡.glb">七号桥碉堡模型 2</option>
+            <option value="上海邮政大楼.glb">上海邮政大楼模型 3</option>
+            <option value="宋公园.glb">宋公园模型 4</option>
+            <option value="朱泾无名烈士墓.glb">朱泾无名烈士墓模型 5</option>
+            <option value="老市府大楼.glb">老市府大楼模型 6</option>
+            <option value="江宁路桥.glb">江宁路桥模型 7</option>
+            <option value="高桥镇.glb">高桥镇模型 8</option>
+        </select>
+    </div>
+    <div id="error-message" style="display: none;"></div>
+    <script src="script.js"></script>
+</body>
+</html>
